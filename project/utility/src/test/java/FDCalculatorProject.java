@@ -1,7 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import utilityPackage.utilityClass;
@@ -24,11 +23,9 @@ public class FDCalculatorProject {
 
         //row
         int rows = utilityClass.getRow(filePath, sheetName);
-//        System.out.println(rows);
 
         //cells
         int cell = utilityClass.getCellCount(filePath,sheetName,rows);
-//        System.out.println(cell);
 
         String data = "";
 
